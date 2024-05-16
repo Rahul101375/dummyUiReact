@@ -1,11 +1,9 @@
 import './App.css';
-// import DrawerAppBar from './components/dumpComponent/Header';
 import RouterComponent from './router';
 
 function App() {
   return (
     <div className="App">
-       
        <RouterComponent/>
     </div>
   );

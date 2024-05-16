@@ -1,22 +1,15 @@
 import * as React from 'react'
 import * as MaterialModule from '../../common/Material'
-import { getAllInfo} from '../../service'
-function ProductsComponent() {
-    React.useEffect(()=>{
-        getAllInfo('products').then((res)=>{
-            console.log("res",res)
-        })
-    },[])
+
+export default function LoginComponent() {
     return (
         <>
             <MaterialModule.Box component="main" sx={{ p: 3 }}>
                 <MaterialModule.Toolbar />
                 <MaterialModule.Typography>
-                    Product Component
+                    Login Component
                 </MaterialModule.Typography>
             </MaterialModule.Box>
-
         </>
     )
 }
-export default ProductsComponent

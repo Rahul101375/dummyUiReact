@@ -9,6 +9,7 @@ import  QuotesComponent  from '../components/smartComponent/Quotes';
 import  RecipesComponent  from '../components/smartComponent/Recipes';
 import  TodoComponent  from '../components/smartComponent/Todo';
 import HeaderComponent from '../components/dumpComponent/Header';
+import LoginComponent from '../components/smartComponent/Login';
 
 export default function RouterComponent(){
     return (
@@ -24,6 +25,7 @@ export default function RouterComponent(){
                 <Route path="quotes" element={<QuotesComponent />}/>
                 <Route path="recipes" element={<RecipesComponent />}/>
                 <Route path="todo" element={<TodoComponent />}/>
+                <Route path="login" element={<LoginComponent />}/>
             </Routes>
           </BrowserRouter>
         </>
