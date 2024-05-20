@@ -40,4 +40,7 @@ export { default as ExpandMoreIcon  } from '@mui/icons-material/ExpandMore';
 export { default as MoreVertIcon  } from '@mui/icons-material/MoreVert';
 export { default as Grid  } from '@mui/material/Grid';
 export { default as Paper } from '@mui/material/Paper';
+export { default as Rating  } from '@mui/material/Rating';
+export { default as Badge } from '@mui/material/Badge';
+export { default as ShoppingCartIcon } from '@mui/icons-material/ShoppingCart';
 

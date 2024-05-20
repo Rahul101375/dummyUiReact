@@ -19,11 +19,11 @@ function ProductsComponent() {
             <MaterialModule.Box component="main" sx={{ p: 3 }}>
                 <MaterialModule.Toolbar />
                 <MaterialModule.Typography>
-                    <MaterialModule.Grid container spacing={2}>
+                    <MaterialModule.Grid container spacing={2} alignItems="stretch">
                         {
                            product?.length && (
                             product.map((item, key) => (
-                                    <MaterialModule.Grid item xs={3} key={key}>
+                                    <MaterialModule.Grid item xs={3} key={key}  style={{display: 'flex'}}>
                                         <CardComponent cardItem={item}/>
                                     </MaterialModule.Grid>
                                 ))
