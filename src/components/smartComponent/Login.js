@@ -1,5 +1,6 @@
 import * as React from 'react'
-import * as MaterialModule from '../../common/Material'
+import * as MaterialModule from '../../common/Material';
+import FormComponent from '../dumpComponent/ReactForm';
 
 export default function LoginComponent() {
     return (
@@ -10,6 +11,8 @@ export default function LoginComponent() {
                     Login Component
                 </MaterialModule.Typography>
             </MaterialModule.Box>
+
+            <FormComponent/>
         </>
     )
 }

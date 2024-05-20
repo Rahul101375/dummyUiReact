@@ -28,4 +28,16 @@ export { default as FormHelperText  } from '@mui/material/FilledInput';
 export { default as FormControl  } from '@mui/material/FormControl';
 export { default as Visibility  } from '@mui/icons-material/Visibility';
 export { default as VisibilityOff  } from '@mui/icons-material/VisibilityOff';
+export { default as Card } from '@mui/material/Card';
+export { default as CardHeader } from '@mui/material/CardHeader';
+export { default as CardMedia } from '@mui/material/CardMedia';
+export { default as CardContent  } from '@mui/material/CardContent';
+export { default as CardActions  } from '@mui/material/CardActions';
+export { default as Collapse } from '@mui/material/Collapse';
+export { default as Avatar  } from '@mui/material/Avatar';
+export { default as ShareIcon  } from '@mui/icons-material/Share';
+export { default as ExpandMoreIcon  } from '@mui/icons-material/ExpandMore';
+export { default as MoreVertIcon  } from '@mui/icons-material/MoreVert';
+export { default as Grid  } from '@mui/material/Grid';
+export { default as Paper } from '@mui/material/Paper';
 

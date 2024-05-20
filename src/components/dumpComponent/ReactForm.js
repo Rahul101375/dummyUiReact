@@ -1,10 +1,13 @@
 import * as React from 'react'
 import * as MaterialModule from '../../common/Material';
 import * as _ from 'lodash'
+import { globalStore } from '../../App';
 
-export default function LoginComponent(props) {
+export default function FormComponent(props) {
     const [showPassword, setShowPassword] = React.useState(false);
     const handleClickShowPassword = () => setShowPassword((show) => !show);
+    const getGlobalData = React.useContext(globalStore);
+    console.log("get store data",getGlobalData)
     const handleMouseDownPassword = (event) => {
         event.preventDefault();
     };
@@ -137,9 +140,9 @@ export default function LoginComponent(props) {
                     Login Component
                 </MaterialModule.Typography>
 
-                <div>
+                {/* <div>
                     {formField()}
-                </div>
+                </div> */}
             </MaterialModule.Box>
         </>
     )
