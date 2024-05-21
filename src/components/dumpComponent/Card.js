@@ -23,7 +23,9 @@ export default function CardComponent(props) {
             />
             <MaterialModule.CardMedia
                 component="img"
-                height="194"
+                height="174px"
+                width="auto"
+                style={{objectFit:'contain'}}
                 image={cardItem.images[currentImageIndex]}
                 alt={cardItem.brand}
             />

@@ -43,4 +43,8 @@ export { default as Paper } from '@mui/material/Paper';
 export { default as Rating  } from '@mui/material/Rating';
 export { default as Badge } from '@mui/material/Badge';
 export { default as ShoppingCartIcon } from '@mui/icons-material/ShoppingCart';
-
+export { default as TablePagination } from '@mui/material/TablePagination';
+export { default as SearchIcon } from '@mui/icons-material/Search';
+export { default as KeyboardVoiceIcon } from '@mui/icons-material/MicOff';
+export { default as SettingsVoiceIcon } from '@mui/icons-material/SettingsVoice';
+export { default as RestartAltIcon } from '@mui/icons-material/RestartAlt';

@@ -59,11 +59,8 @@ const apiHandleError = (error) => {
 function getSingleCharacters(data) {
     return data.charAt(0).toUpperCase();
 }
-function getRandomColor() {
 
-}
 function getColorForLetter(letter) {
-    console.log("color", letter)
     let asciiValue = (letter.charAt(0)).toUpperCase().charCodeAt(0);
     let baseValue = asciiValue - 65;
     let red = (baseValue * 5) % 256;
@@ -74,4 +71,4 @@ function getColorForLetter(letter) {
     return color;
 }
 
-export { getAllInfo, getSingleInfo, createMethod, updateMethod, deleteMethod, getSingleCharacters, getRandomColor, getColorForLetter }
+export { getAllInfo, getSingleInfo, createMethod, updateMethod, deleteMethod, getSingleCharacters, getColorForLetter }
